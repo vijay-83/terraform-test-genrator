@@ -4,7 +4,7 @@
 The **Terraform LLM Test Generator** is a Streamlit-based tool designed to automatically generate test cases (`.tftest.hcl`) for Terraform modules. It leverages multiple Large Language Models (LLMs) including GPT, Claude, Gemini, Mistral, and Hugging Face models to analyze Terraform code and produce structured, runnable test cases or mock simulations.
 
 Key Features:
-- Multi-cloud support (Azure, GCP, AWS, and others)
+- Multi-cloud support (Azure, GCP, and others)
 - Supports multiple LLM engines for test generation
 - Generates both mock (simulated) and real (runnable) Terraform tests
 - Provides detailed coverage and improvement suggestions
