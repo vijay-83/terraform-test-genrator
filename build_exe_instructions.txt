@@ -1,0 +1,16 @@
+PyInstaller EXE Build Instructions (Windows)
+-------------------------------------------
+1. Create a virtualenv and install requirements:
+   python -m venv .venv
+   .venv\Scripts\activate
+   pip install -r requirements.txt pyinstaller
+
+2. Build:
+   pyinstaller --onefile --noconsole -n terraform-llm-testgen terraform_llm_testgen/app.py
+
+3. The EXE will be available at:
+   dist\terraform-llm-testgen.exe
+
+Notes:
+- Large models and external SDKs may increase EXE size.
+- Some SDKs may require additional system libraries; test the EXE on a clean Windows VM.

@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "terraform-llm-testgen"
+version = "1.0.0"
+description = "Streamlit app to generate Terraform .tftest.hcl test cases and coverage reports using multiple LLM engines."
+readme = "README.md"
+license = {text = "WellsFargo"}
+authors = [
+    {name="Vijay Shinde", email="vijay.l.shinde@wellsfargo.com"}
+]
+dependencies = [
+    "streamlit",
+    "openai",
+    "anthropic",
+    "google-generativeai",
+    "mistralai",
+    "python-dotenv"
+]
+
+[project.urls]
+Homepage = "https://github.com/yourgithub/terraform-llm-testgen"
+
+[project.scripts]
+terraform-llm-testgen = "terraform_llm_testgen.cli_launcher:main"
