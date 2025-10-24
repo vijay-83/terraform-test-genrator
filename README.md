@@ -120,6 +120,12 @@ Run with:
 streamlit run terraform_llm_testgen/app.py
 ```
 
+
+---
+[Watch demo video](./terrform-test-genrator-part1)
+
+
+
 ---
 
 ## 6. Risk Metrics
