@@ -122,6 +122,8 @@ streamlit run terraform_llm_testgen/app.py
 
 
 ---
+[Watch demo video Part1](./Prompt_Builder.mp4)
+
 [Watch demo video Part1](./terrform-test-genrator-part1.mp4)
 
 [Watch demo video Part2](./terrform-test-genrator-part2.mp4)
